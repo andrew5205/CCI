@@ -2,6 +2,7 @@
 ch01-
     1.1 isUnique.js
     1.2 checkPermutation.js
+    1.3 urlify.js
 
 
 ch02-
