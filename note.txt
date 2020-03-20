@@ -5,6 +5,7 @@ ch01-
     1.3 urlify.js
     1.4 palindromePermutaton.js
     1.5 oneAway.js
+    1.6 stringCompression.js
 
 
 ch02-
