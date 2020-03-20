@@ -33,11 +33,12 @@ function oneAway( str1, str2) {
         count += dict[k];
     }
 
-    if ( count > 2) {
-        return false;
-    } else {
-        return true;
-    }
+    return  (count > 2) ? false: true;
+    // if ( count > 2) {
+    //     return false;
+    // } else {
+    //     return true;
+    // }
 }
 
 console.log("str1 <= str2");
