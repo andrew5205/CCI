@@ -12,6 +12,9 @@ function oneAway( str1, str2) {
     var arr1 = str1.toLowerCase().split('').sort().join('');
     var arr2 = str2.toLowerCase().split('').sort().join('');
 
+    if (Math.abs(arr1.length - arr2.length) > 1) {      // filter out console.log(oneAway('abc', 'abcde')); // false
+        return false;
+    } 
     for ( var i = 0; i < arr1.length; i++) {
         if ( dict[arr1[i]]) {
             dict[arr1[i]]++;
@@ -33,7 +36,7 @@ function oneAway( str1, str2) {
         count += dict[k];
     }
 
-    return  (count > 2) ? false: true;
+    return  (count > 2) ? false: true;      // console.log(oneAway('pale', 'bale'));   // true 
     // if ( count > 2) {
     //     return false;
     // } else {
