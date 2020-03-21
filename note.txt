@@ -8,11 +8,10 @@ ch01-
     1.6 stringCompression.js
     1.7 rotateMatrix.js
 
+    1.9 stringRotation.js
+
 
 ch02-
     2.1 
-
-
-
 
 
