@@ -6,6 +6,7 @@ ch01-
     1.4 palindromePermutaton.js
     1.5 oneAway.js
     1.6 stringCompression.js
+    1.7 rotateMatrix.js
 
 
 ch02-
